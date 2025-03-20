@@ -2227,7 +2227,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 54.102 10.668 0)
+			(at 40.64 12.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Value" "W25Q16JVUXIQ TR"
-			(at 56.642 6.858 0)
+			(at 40.64 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
