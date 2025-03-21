@@ -422,6 +422,17 @@
 			(pintype "output")
 			(uuid "e3022708-9ff3-4932-8f2a-7507a9d3092d")
 		)
+		(model "${KIPRJMOD}/poma.pretty/audio_jack v2.step"
+			(offset
+				(xyz 3 -9 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 180 0)
+			)
+		)
 	)
 	(footprint "poma:3.5mm_stereo_jack_PJ320B"
 		(layer "F.Cu")
