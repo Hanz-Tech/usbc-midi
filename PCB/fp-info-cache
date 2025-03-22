@@ -1,4 +1,4 @@
-24438785067242747
+24440527932376257
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98650,6 +98650,13 @@ MODULE_ESP32-WROOM-32D
 0
 59
 59
+poma
+SW_TS-1187A-B-A-B
+
+
+0
+4
+4
 poma
 TACTILE_SWITCH_SMD_5.2MM
 <h3>Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square</h3>{return}<p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</p>{return}<p><a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf">Dimensional Drawing</a></p>
