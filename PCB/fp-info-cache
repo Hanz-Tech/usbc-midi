@@ -1,4 +1,4 @@
-24440527932376257
+24442270751673256
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98622,6 +98622,13 @@ B.SilkS_g842
 0
 0
 0
+poma
+BOOMELE_PJ-320B
+
+
+0
+3
+3
 poma
 ESP32-C3-WROOM-02
 ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf

@@ -94,7 +94,7 @@
 		(uuid "4ad7ec98-63ca-4192-8807-d7c9761e7da8")
 	)
 	(fp_line
-		(start 3 3)
+		(start 3 3.2)
 		(end 3 9.1)
 		(stroke
 			(width 0.15)
@@ -204,13 +204,13 @@
 		(uuid "92e976e0-d45c-495a-94de-b4285529b891")
 	)
 	(pad "2" smd rect
-		(at -3.75 7.2)
+		(at -3.75 7.4)
 		(size 3.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f3d0ce3e-d947-4016-aa20-7d028dd2e733")
 	)
 	(pad "3" smd rect
-		(at 3.75 2)
+		(at 3.75 2.2)
 		(size 3.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ba3d0d47-88ba-497e-80e7-4149d5eb2e5d")
