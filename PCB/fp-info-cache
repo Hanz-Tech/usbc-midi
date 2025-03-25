@@ -1,4 +1,4 @@
-24442270751673256
+24445756499695432
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98616,6 +98616,13 @@ poma
 3
 3
 poma
+3.5mm_stereo_jack_PJ320B_no_back_hole
+
+
+0
+3
+3
+poma
 B.SilkS_g842
 
 
@@ -98657,6 +98664,13 @@ MODULE_ESP32-WROOM-32D
 0
 59
 59
+poma
+SOIC127P599X175-8N
+
+
+0
+8
+8
 poma
 SW_TS-1187A-B-A-B
 
