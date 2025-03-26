@@ -16096,6 +16096,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aec77cfc-486b-4614-a8b0-cc45925c5608")
 		)
@@ -16417,18 +16426,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a881189-2554-449c-8b33-b25438dbf149")
 		(property "Reference" "R1"
-			(at 99.06 83.82 90)
+			(at 99.06 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 99.06 81.28 90)
+		(property "Value" "220"
+			(at 99.06 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16455,6 +16463,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25091"
+			(at 99.06 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18518,7 +18535,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA365xxDBV"
+		(property "Value" "OPA365AIDBVR"
 			(at 81.28 171.4814 0)
 			(effects
 				(font
@@ -18554,7 +18571,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C96626"
+		(property "LCSC" "C96626"
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -18605,8 +18622,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
-			(at 97.536 113.792 0)
+		(property "Value" "220"
+			(at 103.124 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18633,6 +18650,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25091"
 			(at 101.6 113.03 0)
 			(effects
 				(font
@@ -19529,7 +19555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 205.105 125.73 0)
 			(effects
 				(font
@@ -19556,7 +19582,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81598"
+		(property "LCSC" "C57759"
 			(at 209.55 125.73 90)
 			(effects
 				(font
@@ -20052,6 +20078,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
 			(at 92.71 78.74 0)
 			(effects
 				(font
