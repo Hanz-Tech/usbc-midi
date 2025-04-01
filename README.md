@@ -19,3 +19,10 @@ Allows you to convert signal between MIDI USB Device, MIDI USB host, MIDI TRS an
 * CV (0-5 V)
 * Powered by RP2040
 
+## Photos
+
+![render](https://raw.githubusercontent.com/Hanz-Tech/usbc-midi/refs/heads/v1.2/photos/render_back.png)
+
+![render](https://raw.githubusercontent.com/Hanz-Tech/usbc-midi/refs/heads/v1.2/photos/render_front.png)
+
+![render](https://raw.githubusercontent.com/Hanz-Tech/usbc-midi/refs/heads/v1.2/photos/render_iso.png)
