@@ -7933,16 +7933,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 88.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "027fc444-68f5-4546-bba9-094ebdd0940b")
-	)
-	(wire
-		(pts
 			(xy 50.8 184.15) (xy 50.8 181.61)
 		)
 		(stroke
@@ -8300,6 +8290,16 @@
 			(type default)
 		)
 		(uuid "2980d558-cd40-4ff8-9254-c5637c123dea")
+	)
+	(wire
+		(pts
+			(xy 138.43 158.75) (xy 143.51 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a4ff2d-49aa-4fcb-926f-d49510da3a47")
 	)
 	(wire
 		(pts
@@ -12021,6 +12021,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ab77024-f97b-49cc-bbf7-58cf24d6d026")
+		(property "Reference" "R25"
+			(at 100.33 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 99.06 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25091"
+			(at 99.06 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c7ccd29-dfb5-4f5e-9296-2ff662c2baf1")
+		)
+		(pin "1"
+			(uuid "86010614-d5e4-42ae-8787-afb1a6f8c20f")
+		)
+		(instances
+			(project "usbc_midi"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "poma:PJ-320B")
 		(at 22.86 190.5 0)
 		(unit 1)
@@ -13504,6 +13580,72 @@
 			(project "usbc_midi"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28da5acf-c068-4cc8-a6f3-4800044f73a4")
+		(property "Reference" "#PWR033"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a0e8b80-6ef0-4f8b-8ed2-16246f59ce15")
+		)
+		(instances
+			(project "usbc_midi"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -20043,6 +20185,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 92.71 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c65fcfb6-6ce4-46cb-9b32-0c51d6359390")
+		(property "Reference" "D4"
+			(at 96.266 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 96.266 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1791e18d-c9fd-4a65-b3bf-4d34cffe2068")
+		)
+		(pin "1"
+			(uuid "1c59ed47-9589-42a6-b8a0-9ec08c005886")
+		)
+		(instances
+			(project "usbc_midi"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 99.06 81.28 270)
 		(unit 1)
@@ -20052,7 +20270,7 @@
 		(dnp no)
 		(uuid "c7001892-b236-427d-a4e0-00f8c68e95da")
 		(property "Reference" "R1"
-			(at 99.822 83.566 90)
+			(at 99.314 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21408,7 +21626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 83.82 90)
+			(at 101.346 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
